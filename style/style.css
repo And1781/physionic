@@ -1,6 +1,6 @@
 
 body{
-	max-width: 1440px;
+	width: 1440px;
 	margin: 0 auto;
 	font-family: Montserrat;
 	font-style: normal;	
@@ -13,8 +13,9 @@ body{
    .header{
 	height: 820px;
 	max-width: 1440px;
-	background-image: url(/img/background.png);
-	z-index: 1000;
+	background-image: url(../img/background.png) ;
+	background-position: center;
+	background-size: cover;
 	margin: 0 auto;
 	
 	
