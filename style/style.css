@@ -59,10 +59,10 @@ li{
    }
    @media (max-width:414px) {
 	   .header{
-		position: relative;
-		width: 414px;
+		background-color: #F6F6F6;
+		z-index: 100;
+		min-width: 414px;
 		height: 532px;
-		margin-top: 36px;
 		width: 100%;
 	   }  
    }
@@ -80,15 +80,18 @@ li{
 }
 @media (max-width:414px){
 	.conteiner_header{
-		padding: 0;
+		padding:35px 0 0 0;
 	}
 	.header_inner{
 	display: inline;
+	justify-content: center;
+	align-items: center;
+
 	
 	
 }
 	.conteiner_header{
-		padding: 0;
+		padding: 36px;
 	}
 }
 .header-logo{ 	
@@ -103,7 +106,10 @@ li{
 @media (max-width:414px){
 		.header-logo{
 			color: #252B42;
-			padding: 36px;
+			font-size:24px;
+			font-weight: 700;
+			line-height: 32px;
+		
 										}
 	}
 .header_menu{
@@ -120,11 +126,10 @@ padding: 0;
 }
 @media (max-width:414px) {
 	.header_menu{
-		padding: 96px 0 0 145px;
-		margin: 0;
-	}
-	.nav_menu{
-	display: inline;
+		padding: 60px 96px 0 0 ;
+		}
+	.nav_menu{	display: inline;
+
 		}
 	}
 .nav_link{
@@ -186,6 +191,7 @@ padding: 0;
 	background-image: url(../img/background.png) ;
 	background-position: center;
 	background-size: cover;
+	z-index: 1;
 	
 }
 
@@ -199,21 +205,20 @@ padding: 0;
 		
 @media (max-width:414px) {
 			.intro{
-				background-image: none;
 				background-image: url(../img/background2.png);
 				height: 1800px;
 				z-index: 10;
+				padding-top: 10px;
 			}
 			.intro_conteiner{
 				display: inline;
-				padding-bottom: 112px;
 			}
-			
-		}
+				}
 
 .intro_row_left{
 		padding: 134px 0;
 }
+
 .intro_title_h1{
 	max-width: 509px;
 }
@@ -223,6 +228,7 @@ padding: 0;
 	font-size: 20px;
 	font-weight: 500;
 	line-height: 30px;
+
 }
 .intro_button{
 	padding: 15px 36px;
@@ -240,6 +246,14 @@ padding: 0;
 .intro_button_right{
 	background: rgba(255,255,255,0);
 	border: 1px solid #FFFF;
+}
+@media (max-width:414px){
+	.intro_row_left{
+		margin:512px 50px 0 50px;	
+	}
+	.intro_title{
+		text-align: center;	}
+	
 }
 
 /*=======форма для бронювання====*/
